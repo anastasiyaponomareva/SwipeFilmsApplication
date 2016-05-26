@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBar" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="background">@color/primary_dark</item>
+        <item name="backgroundStacked">@color/primary</item>
+        <item name="android:titleTextColor">@color/text_on_color</item>
+    </style>
+</resources>
