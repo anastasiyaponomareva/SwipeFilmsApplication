@@ -20,13 +20,17 @@
             android:label="@string/title_activity_swipe_cards"
             android:theme="@style/AppActityBarTheme" />
         <activity
+            android:name=".SavedFilmsActivity"
+            android:label="@string/title_activity_saved"
+            android:theme="@style/AppActityBarTheme" />
+        <activity
             android:name=".CardViewActivity"
             android:label="@string/title_activity_card_view"
             android:theme="@style/AppActityBarTheme" />
-        <activity android:name=".SavedFilmsActivity"
+
+        <activity android:name=".SavedListActivity"
             android:label="@string/title_activity_saved"
-            android:theme="@style/AppActityBarTheme"
-        />
+            android:theme="@style/AppActityBarTheme"/>
     </application>
 
 </manifest>

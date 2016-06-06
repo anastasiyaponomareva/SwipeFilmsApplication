@@ -5,8 +5,10 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 import java.util.List;
@@ -14,7 +16,7 @@ import java.util.List;
 import controller.UserFilmsController;
 import entities.Film;
 
-public class SavedFilmsActivity extends Activity {
+public class SavedFilmsActivity extends AppCompatActivity {
 
     RecyclerView rv;
     private List<Film> films;
@@ -26,7 +28,8 @@ public class SavedFilmsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saved_films);
-        rv = (RecyclerView) findViewById(R.id.rv);
+        Log.d("title", this.getTitle().toString());
+        rv = (RecyclerView) findViewById(R.id.rv_saved);
         randomizeFilms = (FloatingActionButton) findViewById(R.id.fab_randomize_films);
         recommendedFilmsButton = (FloatingActionButton) findViewById(R.id.fab_recommended_films);
         recommendedFilmsButton.setBackgroundTintList(getResources().getColorStateList(R.color.fab_color_2));
@@ -34,7 +37,6 @@ public class SavedFilmsActivity extends Activity {
         Intent intent = getIntent();
         userFilmsController = (UserFilmsController) intent.getExtras()
                 .getSerializable("userFilmsController");
-        setTitle(intent.getStringExtra("activityTitle"));
         Resources r = getResources();
 
         //TODO: dummy variable now, add saved films somehow
