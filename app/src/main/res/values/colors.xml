@@ -15,14 +15,14 @@
  limitations under the License.
 -->
 <resources>
-    <color name="fab_color_1">#ff5252</color>
-    <color name="fab_color_1_muted">#ff8080</color>
-    <color name="fab_color_2">#9c27b0</color>
-    <color name="fab_color_2_muted">#a56ab0</color>
-    <color name="primary">#9c27b0</color>
-    <color name="primary_dark">#4a148c</color>
-    <color name="primary_light">#e1bee7</color>
-    <color name="accent">#009688</color>
+    <color name="fab_color_1">#F44336</color>
+    <color name="fab_color_1_muted">#FFCDD2</color>
+    <color name="fab_color_2">#FFEB3B</color>
+    <color name="fab_color_2_muted">#FFF9C4</color>
+    <color name="primary">#FFC107</color>
+    <color name="primary_dark">#FF8F00</color>
+    <color name="primary_light">#FFE082</color>
+    <color name="accent">#3F51B5</color>
     <color name="text_on_color">#ffffff</color>
     <color name ="hint_color">#7f000000</color>
 
