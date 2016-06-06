@@ -18,11 +18,15 @@
         <activity
             android:name=".SwipeCardsActivity"
             android:label="@string/title_activity_swipe_cards"
-            android:theme="@style/AppActityBarTheme"></activity>
-        
-        <activity android:name=".CardViewActivity"
+            android:theme="@style/AppActityBarTheme" />
+        <activity
+            android:name=".CardViewActivity"
             android:label="@string/title_activity_card_view"
-            android:theme="@style/AppActityBarTheme"></activity>
+            android:theme="@style/AppActityBarTheme" />
+        <activity android:name=".SavedFilmsActivity"
+            android:label="@string/title_activity_saved"
+            android:theme="@style/AppActityBarTheme"
+        />
     </application>
 
 </manifest>

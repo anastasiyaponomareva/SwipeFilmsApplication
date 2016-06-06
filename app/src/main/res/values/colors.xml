@@ -17,7 +17,7 @@
 <resources>
     <color name="fab_color_1">#F44336</color>
     <color name="fab_color_1_muted">#FFCDD2</color>
-    <color name="fab_color_2">#FFEB3B</color>
+    <color name="fab_color_2">#9C27B0</color>
     <color name="fab_color_2_muted">#FFF9C4</color>
     <color name="primary">#FFC107</color>
     <color name="primary_dark">#FF8F00</color>
